@@ -19,4 +19,8 @@ To release the DI build, minimized, in an AMD module:
 
 3. Commit the changes  
 
-4. Tag OpenLayers with the next DI tag
+4. Tag OpenLayers with the next DI tag, i.e.:  
+
+    ```
+    git tag -s v2.13.1-di{#} -m "Released-by: John Doe <john.doe@drillinginfo.com>"
+    ```
